@@ -27,8 +27,8 @@ def maxAreaOfIsland(grid):
                     one_list.remove([row, col])
             if max_area < area:
                 max_area = area
-        return max_area
+        print(max_area)
 
 grid = [[0,0,1,0,0,0,0,1,0,0,0,0,0],[0,0,0,0,0,0,0,1,1,1,0,0,0],[0,1,1,0,1,0,0,0,0,0,0,0,0],[0,1,0,0,1,1,0,0,1,0,1,0,0],[0,1,0,0,1,1,0,0,1,1,1,0,0],[0,0,0,0,0,0,0,0,0,0,1,0,0],[0,0,0,0,0,0,0,1,1,1,0,0,0],[0,0,0,0,0,0,0,1,1,0,0,0,0]]
 
-print(maxAreaOfIsland(grid))
+maxAreaOfIsland(grid)
